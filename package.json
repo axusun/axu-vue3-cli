@@ -1,17 +1,18 @@
 {
   "name": "vite-project",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite --mode dev",
     "build:dev": "vite build --mode dev",
-    "build:pro": "vite build --mode prod",
+    "build:prod": "vite build --mode prod",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^0.25.0",
     "vant": "3",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.0.0",
